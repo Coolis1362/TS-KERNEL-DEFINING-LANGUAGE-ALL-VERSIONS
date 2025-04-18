@@ -1,0 +1,37 @@
+{
+    "USER_TYPE": {
+        "prefix":"USER_TYPE",
+        "body": ["USER_TYPE = \"$User Type here\"", "USER_TYPE = \"ADMIN\"", "USER_TYPE = \"USER\"", "USER_TYPE = \"GUEST\""],
+        "description": "Calls What User Type It Is e.g. USER_TYPE = \"ADMIN\""
+    },
+    "USER_NAME": {
+        "prefix": "USER_NAME",
+        "body": ["USER_NAME = \"$Put User Name Here\""],
+        "description": "Calls What Name Of the User It Is e.g. USER_NAME = \"Martin\""
+    },
+    "USER_TYPE = \"ADMIN\"": {
+        "prefix": "USER_TYPE = \"ADMIN\"",
+        "body": ["USER_TYPE = \"ADMIN\""],
+        "description":"Calls The User As A Admin"
+    },
+    "USER_TYPE = \"USER\"": {
+        "prefix":"USER_TYPE = \"USER\"",
+        "body": ["USER_TYPE = \"USER\""],
+        "description":"Calls The User As A Normal User"
+    },
+    "USER_TYPE = \"GUEST\"": {
+        "prefix":"USER_TYPE = \"GUEST\"",
+        "body": ["USER_TYPE = \"GUEST\""],
+        "description":"Calls The User As A Guest"
+    },
+    "TYPE = \"CLI\"": {
+        "prefix": "TYPE = \"CLI\"",
+        "body": ["TYPE = \"CLI\""],
+        "description": "The CLI Is For TS-KERNEL"
+    },
+    "TYPE = \"GUI\"": {
+        "prefix": "TYPE = \"GUI\"",
+        "body": ["TYPE = \"GUI\""],
+        "description": "The GUI Is For TS-DESKTOP"
+    }
+}

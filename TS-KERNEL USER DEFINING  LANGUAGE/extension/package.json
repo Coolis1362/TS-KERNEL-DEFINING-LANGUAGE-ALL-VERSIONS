@@ -1,0 +1,34 @@
+{
+    "name": "tskernel-user-defining-lang",
+    "displayName": "TS-KERNEL User Defining Lanaguge",
+    "version": "1.0.1", "_comment": "The Version is the Same as The Latest TS-KERNEL Version",
+    "description": "Support For .tsuser Files",
+    "publisher": "Coolis1362",
+    "engines": {
+        "vscode": ">=1.0.0"
+    },
+    "categories": ["Programming Languages", "Snippets"],
+    "contributes": {
+        "languages": [
+            {
+                "id": "tskernel-user-defining-lang",
+                "aliases": ["TS-KERNEL User Defining Lanaguge", "ts-kernel_user_defining_langauge"],
+                "extensions": [ ".tsuser" ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "tskernel-user-defining-lang",
+                "scopeName": "source.ts",
+                "path": "./grammer.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "tskernel-user-defining-lang",
+                "path": "./snippets.json"
+            }
+        ]
+    }
+}

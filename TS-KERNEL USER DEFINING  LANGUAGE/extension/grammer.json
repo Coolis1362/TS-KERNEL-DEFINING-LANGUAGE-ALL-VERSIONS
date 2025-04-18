@@ -1,0 +1,18 @@
+{
+    "scopeName": "source.tskernel-user-defining-lang",
+    "patterns": [
+        {
+            "name": "keyword.control.tskernel-user-defining-lang",
+            "match": "\\b(USER_NAME|USER_TYPE|TYPE)\\b"
+        },
+        {
+            "name": "string.quoted.double.tskernel-user-defining-lang",
+            "match": "\".*?\""
+        },
+
+        {
+            "name":"constant.numeric.tskernel-user-defining-lang",
+            "match": "\\b\\d+\\b"
+        }
+    ]
+}
