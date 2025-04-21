@@ -1,5 +1,5 @@
 {
-    "scopeName": "source.tskernel-user-defining-lang",
+    "scopeName": "source.ts",
     "patterns": [
         {
             "name": "keyword.control.tskernel-user-defining-lang",
