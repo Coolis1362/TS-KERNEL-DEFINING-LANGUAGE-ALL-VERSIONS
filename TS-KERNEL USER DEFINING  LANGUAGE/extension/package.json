@@ -1,7 +1,7 @@
 {
     "name": "tskernel-user-defining-lang",
     "displayName": "TS-KERNEL User Defining Lanaguge",
-    "version": "1.0.1", "_comment": "The Version is the Same as The Latest TS-KERNEL Version",
+    "version": "1.0.2", "_comment": "The Version is the Same as The Latest TS-KERNEL Version",
     "description": "Support For .tsuser Files",
     "publisher": "Coolis1362",
     "engines": {
@@ -20,7 +20,7 @@
         "grammars": [
             {
                 "language": "tskernel-user-defining-lang",
-                "scopeName": "source.ts",
+                "scopeName": "source.tslernel-user-defining-lang",
                 "path": "./grammer.json"
             }
         ],

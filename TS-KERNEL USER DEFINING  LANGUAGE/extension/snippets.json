@@ -33,5 +33,10 @@
         "prefix": "TYPE = \"GUI\"",
         "body": ["TYPE = \"GUI\""],
         "description": "The GUI Is For TS-DESKTOP"
+    },
+    "CONTENTS = \"\"": {
+        "prefix": "CONTENTS = \"\"",
+        "body": ["CONTENTS = \"\""],
+        "description": "The Contents Of The user Folder eg. CONTENTS = \"root\\users\\ADMIN_USER\\Docs\""
     }
 }
